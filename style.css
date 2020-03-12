@@ -1,0 +1,92 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #bbbbbb;
+}
+
+header {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    min-height: 10vh;
+    align-items: center;
+    background-color: #c3f0ca;
+}
+
+.logo-container, .nav-links, .cart {
+    display: flex;
+    padding: 30px;
+}
+
+.logo-container {
+    flex: 1;
+}
+
+nav {
+    flex: 2;
+}
+
+.nav-links {
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav-link {
+    color: black;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav-link:hover {
+    color: grey;
+}
+
+.donate-link {
+    flex: 1;
+    text-decoration: none;
+    color: red;
+    padding:200px;
+}
+
+.presentation {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+
+.intro-text h1 {
+    align-items: center;
+    text-align: center;
+    min-height: 10vh;
+    padding: 40px;
+}
+
+.intro-text h2 {
+    align-items: center;
+    text-align: center;
+    min-height: 10vh;
+    padding: 30px;
+}
+
+.intro-text p {
+    align-items: center;
+    text-align: center;
+    min-height: 10vh;
+    padding: 30px;
+}
+
+.intro-text ul li {
+    align-items: center;
+    text-align: center;
+    min-height: 10vh;
+    padding: 30px;
+    list-style: none;
+    color: #230444;
+}
